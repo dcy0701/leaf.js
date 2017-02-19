@@ -1,0 +1,19 @@
+{
+  "name": "leaf.js",
+  "version": "1.0.0",
+  "description": "一个状态管理方案",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcy0701/leaf.js.git"
+  },
+  "author": "onion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcy0701/leaf.js/issues"
+  },
+  "homepage": "https://github.com/dcy0701/leaf.js#readme"
+}
