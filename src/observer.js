@@ -38,7 +38,7 @@ function toObservable(obj) {
         Reflect.set(observered, observeSymbol, true)
     }
     proxies.set(obj, observered)
-    observers.set(observered, new Map())
+    observers.set(observered, observered)
     return observered
 }
 
