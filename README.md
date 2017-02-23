@@ -5,6 +5,7 @@
 
 ##### Example
 ```
+const {observable,observe} = require('./src/observers.js')
 function print() {
     console.log('changed')
 }
