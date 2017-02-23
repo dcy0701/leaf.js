@@ -1,20 +1,15 @@
 'use strict'
 const {observable,observe} = require('./observer.js')
-
-function print(newV, oldV) {
-    console.log(oldV, `====>`, newV)
+function print() {
+    console.log('变化了')
 }
 
 
 observe(print)
 const observable1 = observable({
-    abc: []
+    abc: {
+        d: 1
+    }
 }, true)
-console.log(observable1);
-observable1.abc.push(1)
-observable1.abc = [1, 2, 3, 4, 5]
-observable1.abc[0] = 1
-observable1.abc.push(2)
 observable1.abc = {}
-observable1.abc.c = {}
-console.log(observable1);
+observable1.abc.d = 1
